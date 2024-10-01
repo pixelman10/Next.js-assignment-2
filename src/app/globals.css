@@ -2,22 +2,162 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+.homeConatiner {
+   background-color: darkslategray; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 2000px;
+  min-height: 656px;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.childContainer{
+  width: fit-content;
+  height: 250px;
+  margin-left:40px ;
+  margin-bottom: 220px;
+  text-align: initial;
+  font-size: 85px;
+  font-weight: 600px;
+  
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.pinkcolour{
+  color:mediumblue;
+}
+
+.Image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  padding-right: 70px;
+  margin-top: 50px;
+}
+
+.intro-pic{
+  max-width: 100%;
+  height: auto;
+  width: 400px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+intro-pic:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+ .header{
+  background-color: darkcyan;
+  color: bisque;
+  height: 68px;
+ }
+
+ .header-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-top: 15px;
+
+ }
+
+
+ .Footer{
+  background-color: darkcyan;
+  color: bisque;
+  height: 68px;
+ }
+
+ .Footer-content{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+ }
+
+
+ .Footer-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 15px;
+
+ }
+
+
+ .card {
+  background-color: darkslategray; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 2000px;
+  min-height: 656px;
+  
+
+ }
+
+ .card1{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 7vh;
+  padding: 25px;
+  box-shadow: 1px 1px 6px 2px grey;
+  transition: all 1s ease;
+  border-radius: 10px;
+  height: 60%;
+ }
+
+
+
+
+ .card ul{
+  margin-top: 10px;
+}
+
+.card ul li {
+  color:darkgoldenrod;
+  font-size: 45px;
+  margin-bottom: 10px;
+  transition: all 0.6s ease-in-out;
+  border-bottom: 2px solid gray;
+}
+
+
+.card ul li:hover{
+  background-color:burlywood;
+  color: white;
+}
+
+
+.card-buttons .button{
+  padding: 5px 10px;
+  border: 2px solid rgb(4, 4, 190);
+  border-radius: 50%;
+  color: rgb(4, 4, 190);
+  margin:10px 10px;
+ 
+}
+
+.card-buttons .button:hover{
+  background-color: rgb(4, 4, 190);
+  color: white;
+}
+
+.card:hover{
+  
+  box-shadow: 2px 2px 8px 8px grey;
 }
 
 @layer utilities {
@@ -25,3 +165,10 @@ body {
     text-wrap: balance;
   }
 }
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: darkorange;
+}
+
