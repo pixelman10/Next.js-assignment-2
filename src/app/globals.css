@@ -5,7 +5,7 @@
 
 
 .homeConatiner {
-   background-color: darkslategray; 
+   background-color:#0F172A; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,11 +22,13 @@
   text-align: initial;
   font-size: 85px;
   font-weight: 600px;
+  color: #F1F5F9;
   
 }
 
 .pinkcolour{
-  color:mediumblue;
+  color:#F9E79F;
+  font-weight: bolder;
 }
 
 .Image{
@@ -53,7 +55,7 @@ intro-pic:hover {
 }
 
  .header{
-  background-color: darkcyan;
+  background-color: #1E3A8A;
   color: bisque;
   height: 68px;
  }
@@ -71,7 +73,7 @@ intro-pic:hover {
 
 
  .Footer{
-  background-color: darkcyan;
+  background-color: #1E3A8A;
   color: bisque;
   height: 68px;
  }
@@ -97,7 +99,7 @@ intro-pic:hover {
 
 
  .card {
-  background-color: darkslategray; 
+  background-color: #0F172A; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,7 +129,7 @@ intro-pic:hover {
 }
 
 .card ul li {
-  color:darkgoldenrod;
+  color: #F1F5F9;
   font-size: 45px;
   margin-bottom: 10px;
   transition: all 0.6s ease-in-out;
@@ -169,6 +171,8 @@ intro-pic:hover {
 h1{
   font-size: 30px;
   text-align: center;
-  color: darkorange;
+  color:#F9E79F;
+  font-weight: bolder;
+
 }
 
